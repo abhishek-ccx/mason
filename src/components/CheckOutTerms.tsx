@@ -8,9 +8,9 @@ const CheckOutTerms = () => {
       </h2>
 
       <section className="flex items-start space-x-2 pt-[17px]">
-        <Checkbox id="1300" />
+        <Checkbox id="1323" />
         <label
-          htmlFor="1300"
+          htmlFor="1323"
           className="text-[16px] font-normal leading-[24.8px] px-[3px]"
         >
           *I agree to the account terms and conditions listed below and to have

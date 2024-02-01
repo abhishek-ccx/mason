@@ -9,7 +9,7 @@ export function AccordionContainer() {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem
-        value="item-1"
+        value="item-11"
         className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
       >
         <AccordionTrigger className="text-left">
@@ -20,7 +20,7 @@ export function AccordionContainer() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem
-        value="item-2"
+        value="item-21"
         className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
       >
         <AccordionTrigger className="text-left">
@@ -32,7 +32,7 @@ export function AccordionContainer() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem
-        value="item-3"
+        value="item-31"
         className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
       >
         <AccordionTrigger className="text-left">
