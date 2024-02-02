@@ -1,9 +1,10 @@
 import Link from "next/link";
-import CheckCirle from "../components/icons/checkCircle";
+import CheckCirle from "./icons/checkCircle";
 
 interface ShippingProps {
   color: string;
   edit: boolean;
+  logo: boolean;
 }
 
 const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {

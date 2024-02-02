@@ -1,5 +1,5 @@
 import Secure from "./Secure";
-import Shipping from "./Shipping";
+import ColorShipping from "./ColorShipping";
 import Payment from "./Payment";
 
 const Checkout2 = () => {
@@ -8,7 +8,7 @@ const Checkout2 = () => {
       <section className="lg:grid grid-cols-2 max-width-[1440px]">
         <section className="h-full lg:ml-[72px] lg:mr-1">
           <Secure />
-          <Shipping edit={false} color="#298842" />
+          <ColorShipping edit={false} color="#298842" logo={false} />
           <Payment />
         </section>
         <section className="h-full"></section>
