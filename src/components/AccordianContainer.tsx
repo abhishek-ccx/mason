@@ -10,7 +10,7 @@ export function AccordionContainer() {
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem
         value="item-11"
-        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
+        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-4 pl-6 pr-4"
       >
         <AccordionTrigger className="text-left">
           Terms & Conditions
@@ -21,7 +21,7 @@ export function AccordionContainer() {
       </AccordionItem>
       <AccordionItem
         value="item-21"
-        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
+        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-4 pl-6 pr-4"
       >
         <AccordionTrigger className="text-left">
           Privacy Policy
@@ -33,7 +33,7 @@ export function AccordionContainer() {
       </AccordionItem>
       <AccordionItem
         value="item-31"
-        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-[16px] pl-6 pr-[17px]"
+        className="border border-[#B6B6B8] rounded-md shadow-md bg-[#F4F4F4] mb-4 pl-6 pr-4"
       >
         <AccordionTrigger className="text-left">
           Credit Report & Electronic Communications Authorization

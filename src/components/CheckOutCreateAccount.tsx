@@ -6,8 +6,8 @@ import Link from "next/link";
 const CheckOutCreateAccount = () => {
   return (
     <>
-      <h2 className="font-bold text-[18px] leading-[23.4px]">Create Account</h2>
-      <p className="pt-[8px] font-normal text-[16px]">
+      <h2 className="font-bold text-[18px] leading-6">Create Account</h2>
+      <p className="pt-2 font-normal text-4">
         To use Stoneberry Credit, you must create a new account here or sign in
         to an existing account.
       </p>
@@ -17,29 +17,29 @@ const CheckOutCreateAccount = () => {
             <InputField items="*Email Address" id={"21"} htmlFor={"21"} />
           </section>
         </section>
-        <section className="lg:grid lg:grid-cols-3 gap-x-3 pt-[20px] flex flex-rows items-center">
+        <section className="lg:grid lg:grid-cols-3 gap-x-3 pt-5 flex flex-rows items-center">
           <section className="col-span-2 relative grow">
             <InputField items="Password" id={"31"} htmlFor={"31"} />
-            <section className="absolute top-[30%] right-0 pr-[16px] text-[14px] underline">
+            <section className="absolute top-[30%] right-0 pr-4 text-sm underline">
               <Link href="#">Show</Link>
             </section>
           </section>
           <section className="flex-none items-center">
-            <HelpIcon className="h-[24px] w-[24px]" />
+            <HelpIcon className="h-6 w-6" />
           </section>
         </section>
       </section>
-      <section className="flex items-start space-x-2 pt-[17px]">
+      <section className="flex items-start space-x-2 pt-6">
         <Checkbox id="10000" />
         <label
           htmlFor="10000"
-          className="text-[16px] font-normal leading-[24.64px] px-[3px]"
+          className="text-4 font-normal leading-6 px-[3px]"
         >
           Yes, please send me email updates about new products and exclusive
           promotions!
         </label>
       </section>
-      <p className="pt-[8px] font-normal text-[16px]">
+      <p className="pt-2 font-normal text-4">
         To continue checkout as a guest, select Credit/Debit Card as your
         payment method above.
       </p>

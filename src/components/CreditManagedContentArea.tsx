@@ -1,13 +1,13 @@
 const CreditManagedContentArea = () => {
   return (
     <section className="bg-[#FFE2E3] text-center">
-      <p className="font-bold text-[18px] leading-[23.4px] pt-[48.23px] lg:pt-[16px] lg:inline-block">
+      <p className="font-bold text-[18px] leading-6 pt-12 lg:pt-4 lg:inline-block">
         Stoneberry Credit Managed
       </p>
-      <p className="font-bold text-[18px] leading-[23.4px] lg:pt-[16px] lg:inline-block ">
+      <p className="font-bold text-[18px] leading-6 lg:pt-4 lg:inline-block ">
         &nbsp;Content Area
       </p>
-      <p className="font-bold text-[18px] leading-[23.4px] lg:pb-[15px] pb-[47.58px]">
+      <p className="font-bold text-[18px] leading-6 lg:pb-4 pb-12">
         (New Customer)
       </p>
     </section>

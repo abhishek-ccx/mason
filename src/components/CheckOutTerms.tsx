@@ -3,16 +3,13 @@ import Link from "next/link";
 const CheckOutTerms = () => {
   return (
     <>
-      <h2 className="font-bold text-[18px] leading-[23.4px] lg:pt-[25px] pt-[29px]">
+      <h2 className="font-bold text-[18px] leading-6 lg:pt-6 pt-7">
         Terms & Conditions
       </h2>
 
-      <section className="flex items-start space-x-2 pt-[17px]">
+      <section className="flex items-start space-x-2 pt-4">
         <Checkbox id="1323" />
-        <label
-          htmlFor="1323"
-          className="text-[16px] font-normal leading-[24.8px] px-[3px]"
-        >
+        <label htmlFor="1323" className="text-4 font-normal leading-6 px-0.5">
           *I agree to the account terms and conditions listed below and to have
           the{" "}
           <Link href="/" className="underline underline-offset-2">

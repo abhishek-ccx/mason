@@ -1,12 +1,12 @@
 import StepsDesktop from "../components/icons/stepsDesktop";
-import InputField from "./InputField";
-import LockIcon from "../components/icons/lockIcon";
-import HelpIcon from "../components/icons/helpIcon";
-import { RadioGroupDemo } from "./RadioButton";
-import { Checkbox } from "@/components/ui/checkbox";
+// import InputField from "./InputField";
+// import LockIcon from "../components/icons/lockIcon";
+// import HelpIcon from "../components/icons/helpIcon";
+// import { RadioGroupDemo } from "./RadioButton";
+// import { Checkbox } from "@/components/ui/checkbox";
 import { AccordionContainer } from "./AccordianContainer";
 import { Button } from "@/components/ui/button";
-import Link from "next/link";
+// import Link from "next/link";
 import PaymentMethod from "./PaymentMethod";
 import CreditManagedContentArea from "./CreditManagedContentArea";
 import CheckoutInputFields from "./CheckoutInputFields";
@@ -17,8 +17,8 @@ import CheckOutCreateAccount from "./CheckOutCreateAccount";
 const Payment = () => {
   return (
     <form action="">
-      <section className="lg:pt-[25px] pt-[22px] pb-[25px] lg:border lg:shadow-[#B6B6B8] lg:border-[#B6B6B8] lg:mt-[24px] lg:rounded-md lg:shadow-md border-t-[1px] border-b-[1px]">
-        <header className="flex items-center align-middle gap-x-[15px] lg:border-b-[1px] border-[#B6B6B8] lg:pb-[21px]  lg:px-[26px] px-[15px] ">
+      <section className="lg:pt-6 pt-[22px] pb-6 lg:border lg:shadow-[#B6B6B8] lg:border-[#B6B6B8] lg:mt-6 lg:rounded-md lg:shadow-md border-t border-b">
+        <header className="flex items-center align-middle gap-x-[15px] lg:border-b border-[#B6B6B8] lg:pb-[21px]  lg:px-[26px] px-[15px] ">
           <StepsDesktop />
           <h1 className="font-bold text-[22px] leading-[28.6px]">Payment</h1>
         </header>
