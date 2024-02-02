@@ -1,5 +1,5 @@
 import Link from "next/link";
-import CheckCirle from "./icons/checkCircle";
+import SuccessIcon from "./icons/checkCircle";
 
 interface ShippingProps {
   color: string;
@@ -12,7 +12,7 @@ const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {
     <section className="lg:pl-[26px] lg:pr-[26px] pl-[15px] pr-[19px] lg:border lg:shadow-[#B6B6B8] border-[#B6B6B8] lg:rounded-md lg:shadow-md border-t-[1px]">
       <section className="flex items-start lg:gap-x-[12px] gap-x-[12px]">
         <section className="lg:pt-[24px] pt-[25px]">
-          <CheckCirle className={`w-[36px] h-[36px] fill-[${color}]`} />
+          <SuccessIcon className={`w-[36px] h-[36px] fill-[${color}]`} />
         </section>
         <article className="mr-auto">
           <h1 className="font-bold text-[22px] leading-[28.6px] text-[#298842] pt-[27px]">
