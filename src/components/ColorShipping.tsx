@@ -4,7 +4,6 @@ import SuccessIcon from "./icons/checkCircle";
 interface ShippingProps {
   color: string;
   edit: boolean;
-  logo: boolean;
 }
 
 const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {

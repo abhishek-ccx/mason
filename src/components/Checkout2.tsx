@@ -8,7 +8,7 @@ const Checkout2 = () => {
       <section className="lg:grid grid-cols-2 max-width-[1440px]">
         <section className="h-full lg:ml-[72px] lg:mr-1">
           <Secure />
-          <ColorShipping edit={false} color="#298842" logo={false} />
+          <ColorShipping edit={false} color="#298842" />
           <Payment />
         </section>
         <section className="h-full"></section>
