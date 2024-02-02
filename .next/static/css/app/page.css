@@ -825,6 +825,15 @@ video {
 .fill-current {
   fill: currentColor;
 }
+.fill-\[\#769696\] {
+  fill: #769696;
+}
+.fill-\[\#76969\] {
+  fill: #76969;
+}
+.fill-\[\#298842\] {
+  fill: #298842;
+}
 .p-\[16px\] {
   padding: 16px;
 }

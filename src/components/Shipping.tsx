@@ -1,24 +1,31 @@
 import Link from "next/link";
 import CheckCirle from "../components/icons/checkCircle";
 
-const Shipping = () => {
+interface ShippingProps {
+  color: string;
+  edit: boolean;
+}
+
+const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {
   return (
     <section className="lg:pl-[26px] lg:pr-[26px] pl-[15px] pr-[19px] lg:border lg:shadow-[#B6B6B8] border-[#B6B6B8] lg:rounded-md lg:shadow-md border-t-[1px]">
       <section className="flex items-start lg:gap-x-[12px] gap-x-[12px]">
         <section className="lg:pt-[24px] pt-[25px]">
-          <CheckCirle className="w-[36px] h-[36px]" />
+          <CheckCirle className={`w-[36px] h-[36px] fill-[${color}]`} />
         </section>
         <article className="mr-auto">
           <h1 className="font-bold text-[22px] leading-[28.6px] text-[#298842] pt-[27px]">
             Shipping
           </h1>
         </article>
-        <Link
-          className="font-normal text-[16px] leading-[19.2px] underline pt-[32px]"
-          href="#"
-        >
-          Edit
-        </Link>
+        {edit ? (
+          <Link
+            className="font-normal text-[16px] leading-[19.2px] underline pt-[32px]"
+            href="#"
+          >
+            Edit
+          </Link>
+        ) : null}
       </section>
       <section className="grid lg:grid-cols-2 pt-[25px]">
         <section className="pl-[49px] pb-[33px] lg:pb-[35px]">
