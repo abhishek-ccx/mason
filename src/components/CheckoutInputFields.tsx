@@ -14,7 +14,7 @@ const CheckoutInputFields = () => {
       </section>
       <section className="lg:grid lg:grid-cols-2 flex flex-rows items-center gap-3">
         <section className="grid grid-cols-2">
-          <p className="flex items-center justify-center text-4 leading-6 tracking-[5px]">
+          <p className="flex items-center justify-center text-base leading-6 tracking-[5px]">
             XXX - XX -
           </p>
           <InputField items="*Last 4 of SSN" id={"1"} htmlFor={"1"} />
@@ -28,7 +28,7 @@ const CheckoutInputFields = () => {
           <InputField items="Catalog ID (optional)" id={"3"} htmlFor={"3"} />
         </section>
         <section className="flex-none items-center">
-          <HelpIcon className="h-[24px] w-[24px]" />
+          <HelpIcon className="h-6 w-6" />
         </section>
       </section>
     </section>

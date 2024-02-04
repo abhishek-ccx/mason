@@ -20,7 +20,7 @@ const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {
         </article>
         {edit ? (
           <Link
-            className="font-normal text-4 leading-5 underline pt-8"
+            className="font-normal text-base leading-5 underline pt-8"
             href="#"
           >
             Edit
@@ -32,16 +32,16 @@ const Shipping: React.FC<ShippingProps> = ({ edit, color }) => {
           <strong className="font-bold text-[18px] leading-6 pt-7">
             Shipping Address
           </strong>
-          <p className="font-normal text-6 pt-2.5 lg:pr-3 pr-24 text-ellipsis overflow-hidden">
+          <p className="font-normal text-base pt-2.5 lg:pr-3 pr-24 text-ellipsis overflow-hidden">
             Shannon Henneman 1303 Brookline Ave Eau Claire, WI 54703-1925
           </p>
-          <p className="pt-2 font-normal text-4">(715) 555-5555</p>
+          <p className="pt-2 font-normal text-base">(715) 555-5555</p>
         </section>
         <article className="pl-11">
           <strong className="font-bold text-[18px] leading-6 lg:pt-7  pt-8">
             Shipping Method
           </strong>
-          <p className="font-normal text-[17px] pt-2.5 lg:pr-3 pr-6 lg:pb-0 pb-9 text-ellipsis overflow-hidden">
+          <p className="font-normal text-base pt-2.5 lg:pr-3 pr-6 lg:pb-0 pb-9 text-ellipsis overflow-hidden">
             Arrives by <strong>Wed, Dec 06 </strong>Standard Shipping
           </p>
         </article>

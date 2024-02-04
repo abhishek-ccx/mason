@@ -1,0 +1,65 @@
+[
+  {
+    "name": "Red",
+    "hex": "#FF0000",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": false }
+    ]
+  },
+  {
+    "name": "Green",
+    "hex": "#00FF00",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": false },
+      { "name": "King", "available": true }
+    ]
+  },
+  {
+    "name": "Blue",
+    "hex": "#0000FF",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": true }
+    ]
+  },
+  {
+    "name": "Yellow",
+    "hex": "#FFFF00",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": true }
+    ]
+  },
+  {
+    "name": "Cyan",
+    "hex": "#00FFFF",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": true }
+    ]
+  },
+  {
+    "name": "Magenta",
+    "hex": "#FF00FF",
+    "sizes": [
+      { "name": "Twin", "available": false },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": true }
+    ]
+  },
+  {
+    "name": "Black",
+    "hex": "#000000",
+    "sizes": [
+      { "name": "Twin", "available": true },
+      { "name": "Full/Queen", "available": true },
+      { "name": "King", "available": true }
+    ]
+  }
+]

@@ -9,7 +9,10 @@ const CheckOutTerms = () => {
 
       <section className="flex items-start space-x-2 pt-4">
         <Checkbox id="1323" />
-        <label htmlFor="1323" className="text-4 font-normal leading-6 px-0.5">
+        <label
+          htmlFor="1323"
+          className="text-base font-normal leading-6 px-0.5"
+        >
           *I agree to the account terms and conditions listed below and to have
           the{" "}
           <Link href="/" className="underline underline-offset-2">

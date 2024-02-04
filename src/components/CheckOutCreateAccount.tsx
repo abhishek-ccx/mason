@@ -7,7 +7,7 @@ const CheckOutCreateAccount = () => {
   return (
     <>
       <h2 className="font-bold text-[18px] leading-6">Create Account</h2>
-      <p className="pt-2 font-normal text-4">
+      <p className="pt-2 font-normal text-base">
         To use Stoneberry Credit, you must create a new account here or sign in
         to an existing account.
       </p>
@@ -33,13 +33,13 @@ const CheckOutCreateAccount = () => {
         <Checkbox id="10000" />
         <label
           htmlFor="10000"
-          className="text-4 font-normal leading-6 px-[3px]"
+          className="text-base font-normal leading-6 px-[3px]"
         >
           Yes, please send me email updates about new products and exclusive
           promotions!
         </label>
       </section>
-      <p className="pt-2 font-normal text-4">
+      <p className="pt-6 font-normal text-base">
         To continue checkout as a guest, select Credit/Debit Card as your
         payment method above.
       </p>
