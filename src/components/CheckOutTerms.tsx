@@ -3,7 +3,7 @@ import Link from "next/link";
 const CheckOutTerms = () => {
   return (
     <>
-      <h2 className="font-bold text-[18px] leading-6 lg:pt-6 pt-7">
+      <h2 className="font-bold text-lg leading-6 lg:pt-6 pt-7">
         Terms & Conditions
       </h2>
 

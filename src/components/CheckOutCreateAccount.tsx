@@ -6,7 +6,7 @@ import Link from "next/link";
 const CheckOutCreateAccount = () => {
   return (
     <>
-      <h2 className="font-bold text-[18px] leading-6">Create Account</h2>
+      <h2 className="font-bold text-lg leading-6">Create Account</h2>
       <p className="pt-2 font-normal text-base">
         To use Stoneberry Credit, you must create a new account here or sign in
         to an existing account.

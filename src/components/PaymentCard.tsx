@@ -26,7 +26,7 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
           </p>
         </section>
       )}
-      <strong className="text-18 leading-6 font-semibold">{name}</strong>
+      <strong className="text-lg leading-6 font-semibold">{name}</strong>
       <p className="text-base font-normal leading-5 pr-9">{address}</p>
       <p className="text-base font-normal leading-5 pt-4">{phoneNumber}</p>
       <section className="pt-6 flex items-center gap-4">

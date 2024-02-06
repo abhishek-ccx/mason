@@ -12,7 +12,7 @@ export function RadioGroupDemo() {
           htmlFor="r1"
           className="flex justify-between items-center w-full pl-2"
         >
-          <p className="text-[18px] leading-6 py-4 font-normal">
+          <p className="text-lg leading-6 py-4 font-normal">
             Credit/Debit Card
           </p>
           <CreditCardsIcon className="pr-4 h-9 w-[149px]" />
@@ -24,7 +24,7 @@ export function RadioGroupDemo() {
           htmlFor="r2"
           className="flex justify-between items-center w-full pl-2"
         >
-          <p className="text-[18px] leading-6 py-4 font-normal">
+          <p className="text-lg leading-6 py-4 font-normal">
             Stoneberry Credit
           </p>
           <StoneberryCreditIcon className="py-px pb-2 h-14 w-[153.42px]" />

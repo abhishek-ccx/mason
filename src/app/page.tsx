@@ -9,8 +9,8 @@ export default function Home() {
   return (
     <>
       {/* <Checkout2 /> */}
-      {/* <PdpPage /> */}
-      <PaymentAddress />
+      <PdpPage />
+      {/* <PaymentAddress /> */}
       {/* <SignInCheckoutPayment /> */}
     </>
   );

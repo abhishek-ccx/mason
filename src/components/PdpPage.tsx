@@ -5,6 +5,7 @@ import React, { useState } from "react";
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import pdpImage from "../../public/images/image 13.png";
+import imageService from "../../public/images/imageService.png";
 import StarFill from "./icons/startFill";
 import Favourite from "./icons/favourite";
 import Link from "next/link";
@@ -153,7 +154,7 @@ const PdpPage = () => {
             <section className="pt-5 flex items-center gap-1">
               <section>
                 <p className="text-sm font-normal leading-5 inline-block">or</p>{" "}
-                <strong className="font-bold text-18 inline-block">
+                <strong className="font-bold text-lg inline-block">
                   $5.99/month*
                 </strong>{" "}
                 <p className="text-sm font-normal leading-5 inline-block">
@@ -162,37 +163,62 @@ const PdpPage = () => {
               </section>
               <HelpIcon className="h-5 w-5" />
             </section>
-            <section className="pt-3">
-              <section className="bg-[#FFE2E3] text-center">
-                <p className="font-bold text-18 leading-6 py-7">
-                  Credit Managed Content Area
-                </p>
-              </section>
+
+            <section className="py-5 mt-4">
+              <h1 className="font-extrabold text-2xl leading-8">
+                BUY NOW, PAY LATER
+              </h1>
+              <p className="font-bold text-base leading-5 inline-block">
+                Get pre-qualified instantly!
+              </p>
+              {"   "}
+              <Link
+                className="font-normal text-sm leading-5 underline"
+                href={"/"}
+              >
+                Get Started
+              </Link>
             </section>
-            <section className="pt-3">
-              <section className="bg-[#FFE2E3] text-center">
-                <p className="font-bold text-18 leading-6 py-7">
-                  Promotion Managed Content Area
-                </p>
-              </section>
+
+            <section className="pt-7">
+              <p className="font-bold leading-6 text-xl inline-block">
+                20% off
+              </p>
+              {"   "}
+              <p className="font-normal leading-6 text-xl inline-block">
+                with code
+              </p>
+              {"   "}
+              <p className="font-bold leading-6 text-xl inline-block text-[#DF2429]">
+                SAVE20
+              </p>
+              {"   "}
+              <Link
+                className="font-normal text-sm leading-5 underline"
+                href={"/"}
+              >
+                View details
+              </Link>
             </section>
             <section className="pt-5 flex items-center">
               <section>
-                <p className="font-normal inline-block">Qty: </p>{" "}
+                <p className="font-normal inline-block">Qty: </p>
+                {"  "}
                 <section></section>
               </section>
             </section>
             <section className="pt-30">
-              <p className="font-normal text-18 inline-block">Availability:</p>{" "}
-              <strong className="font-bold text-18 text-[#298842] leading-5">
+              <p className="font-normal text-lg inline-block">Availability:</p>
+              {"  "}
+              <strong className="font-bold text-lg text-[#298842] leading-5">
                 In Stock
               </strong>
             </section>
             <section>
-              <p className="text-18 font-normal leading-5 inline-block">
+              <p className="text-lg font-normal leading-5 inline-block">
                 Arrives by
               </p>{" "}
-              <strong className="font-bold text-18 inline-block">
+              <strong className="font-bold text-lg inline-block">
                 Wed, Dec 06
               </strong>
             </section>
@@ -218,12 +244,8 @@ const PdpPage = () => {
                 </p>
               </section>
             </Button>
-            <section className="pt-4">
-              <section className="bg-[#FFE2E3] text-center">
-                <p className="font-bold text-18 leading-6 py-7">
-                  Item Level Message Managed Content Area
-                </p>
-              </section>
+            <section className="flex justify-center mx-auto pt-4">
+              <Image src={imageService} alt="service_image" />
             </section>
             <section className="pt-30">
               <PppAccordian />

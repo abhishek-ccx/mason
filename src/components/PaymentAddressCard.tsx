@@ -131,7 +131,7 @@ const PaymentAddressCard = () => {
                   <Button
                     variant="destructive"
                     type="submit"
-                    className="lg:py-3 py-4 font-bold lg:text-lg lg:leading-6 text-[18px] leading-7 bg-[#002C4E] hover:bg-[#002C4E] w-full"
+                    className="lg:py-3 py-4 font-bold lg:text-lg lg:leading-6 text-lg leading-7 bg-[#002C4E] hover:bg-[#002C4E] w-full"
                   >
                     Save Address
                   </Button>

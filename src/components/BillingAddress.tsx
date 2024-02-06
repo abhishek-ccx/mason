@@ -2,7 +2,7 @@ import { Checkbox } from "@/components/ui/checkbox";
 const BillingAddress = () => {
   return (
     <section>
-      <h2 className="font-bold text-[18px] leading-6">Billing Address</h2>
+      <h2 className="font-bold text-lg leading-6">Billing Address</h2>
       <section className="flex items-center space-x-2 pt-4">
         <Checkbox id="100" />
         <label htmlFor="100" className="text-base font-normal leading-6 px-2">

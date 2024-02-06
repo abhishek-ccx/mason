@@ -5,7 +5,7 @@ const SignInPaymentBillingAddress = () => {
       <section>
         <section className="grid lg:grid-cols-2 pt-6">
           <section className="pl-12 pb-8 lg:pb-0">
-            <strong className="font-bold text-[18px] leading-6 pt-7">
+            <strong className="font-bold text-lg leading-6 pt-7">
               Billing Address
             </strong>
             <p className="font-normal text-6 pt-2.5 lg:pr-3 pr-14 text-ellipsis overflow-hidden">
@@ -22,7 +22,7 @@ const SignInPaymentBillingAddress = () => {
             </section>
           </section>
           <section className="pl-11">
-            <strong className="font-bold text-[18px] leading-6 lg:pt-7 pt-8">
+            <strong className="font-bold text-lg leading-6 lg:pt-7 pt-8">
               Contact Info
             </strong>
             <p className="font-normal text-[17px] pt-2.5 lg:pr-3 pr-6 text-ellipsis overflow-hidden">

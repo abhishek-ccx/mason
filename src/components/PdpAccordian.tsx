@@ -9,7 +9,7 @@ export function PppAccordian() {
   return (
     <Accordion type="single" collapsible className="w-full">
       <AccordionItem value="item-1">
-        <AccordionTrigger className="text-18 font-bold leading-6">
+        <AccordionTrigger className="text-lg font-bold leading-6">
           Description
         </AccordionTrigger>
         <AccordionContent>
@@ -17,7 +17,7 @@ export function PppAccordian() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-2">
-        <AccordionTrigger className="text-18 font-bold leading-6">
+        <AccordionTrigger className="text-lg font-bold leading-6">
           Specifications
         </AccordionTrigger>
         <AccordionContent>
@@ -26,7 +26,7 @@ export function PppAccordian() {
         </AccordionContent>
       </AccordionItem>
       <AccordionItem value="item-3">
-        <AccordionTrigger className="text-18 font-bold leading-6">
+        <AccordionTrigger className="text-lg font-bold leading-6">
           Shipping
         </AccordionTrigger>
         <AccordionContent>
