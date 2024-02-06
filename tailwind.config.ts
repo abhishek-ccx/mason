@@ -18,9 +18,6 @@ const config = {
       },
     },
     extend: {
-      fontSize: {
-        "22px": "22px",
-      },
       padding: {
         "18": "18px",
         "30": "30px",

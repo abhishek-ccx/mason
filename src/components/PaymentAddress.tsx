@@ -1,3 +1,4 @@
+import PaymentAccountHeader from "./PaymentAccountHeader";
 import PaymentAddressCard from "./PaymentAddressCard";
 
 const PaymentAddress = () => {
@@ -8,6 +9,7 @@ const PaymentAddress = () => {
           ISME SIDE NAV AAYEGA
         </section>
         <section className="w-full mx-auto">
+          <PaymentAccountHeader />
           <PaymentAddressCard />
         </section>
       </section>

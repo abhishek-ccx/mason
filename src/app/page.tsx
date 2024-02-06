@@ -10,7 +10,7 @@ export default function Home() {
     <>
       {/* <Checkout2 /> */}
       {/* <PdpPage /> */}
-      {/* <PaymentAddress /> */}
+      <PaymentAddress />
       {/* <SignInCheckoutPayment /> */}
     </>
   );

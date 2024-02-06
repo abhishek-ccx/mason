@@ -17,11 +17,15 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
   isDefault,
 }) => {
   return (
-    <section
-      className={`lg:p-8 lg:m-0 m-4 p-4 rounded-md shadow-sm shadow-[#B6B6B8] ${
-        isDefault ? "border-2 border-[#298842]" : "border border-[#B6B6B8]"
-      }`}
-    >
+    <section className="lg:p-8 lg:m-0 m-4 p-4 rounded-md shadow-sm shadow-[#B6B6B8] border border-[#B6B6B8]">
+      {isDefault && (
+        <section className="pb-6 flex items-center gap-2">
+          <CheckCircle className="h-4 w-4" />
+          <p className="font-bold leading-5 test-sm uppercase">
+            Default Shipping and Billing Address
+          </p>
+        </section>
+      )}
       <strong className="text-18 leading-6 font-semibold">{name}</strong>
       <p className="text-base font-normal leading-5 pr-9">{address}</p>
       <p className="text-base font-normal leading-5 pt-4">{phoneNumber}</p>
@@ -45,14 +49,7 @@ const PaymentCard: React.FC<PaymentCardProps> = ({
           </section>
         </Button>
       </section>
-      {isDefault ? (
-        <section className="pt-6 flex items-center gap-2">
-          <CheckCircle className="h-4 w-4" />
-          <p className="font-bold leading-5 test-sm uppercase">
-            Default Shipping and Billing Address
-          </p>
-        </section>
-      ) : (
+      {!isDefault && (
         <section className="flex items-center">
           <Button
             type="submit"
